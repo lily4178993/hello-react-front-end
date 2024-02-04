@@ -12,9 +12,9 @@ function App() {
 
   return (
     <div className="text-center text-red-800">
-      <div className="h-36">
+      <h1 className="h-36 w-4/5 font-black">
         <Greeting />
-      </div>
+      </h1>
       <button type="button" onClick={refreshGreeting} className="mt-8">Refresh</button>
     </div>
   );
