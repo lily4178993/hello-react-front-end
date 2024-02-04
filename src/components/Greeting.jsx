@@ -11,10 +11,10 @@ const Greeting = () => {
   }, [dispatch]);
 
   if (status === 'loading') {
-    return <div className='font-thin animate-pulse'>...</div>;
+    return <div className="font-thin animate-pulse">...</div>;
   } if (status === 'failed') {
     return (
-      <div className='font-thin'>
+      <div className="font-thin">
         Error:
         {error}
       </div>
